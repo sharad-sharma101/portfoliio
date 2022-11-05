@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharad Sharma</title>
+    <link rel="stylesheet" href="style.css" class="style">
+    <script src="https://kit.fontawesome.com/aef0219df2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+   <div id="header" class="parallax">
+        <div class="container"> 
+            <nav>
+                <img src="IMAGES/S .png" class="logo" >
+                <ul id="sidemenu" >
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+                <h1>Hi , I'm <br> <span>Sharad Sharma</span> </h1>
+                <p class="animate-charcter">Full Stack Developer</p>
+            </div>
+        </div>
+    </div>
+
+     <!-- -----------about--------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMAGES/Avatar.png"  >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Strong in design and integration with intuitive problem-solving skills. Proficient in C/C++ , JAVA Script and
+                        SQL. Passionate about implementing and launching new projects. Ability to translate business
+                        requirements into technical solutions. Looking to great opportunity as software engineer
+                        with a reputed firm driven by technology.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links " onclick=" opentab('skills') ">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experiene</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="education">
+                        <ul>
+                            <li><span>FRAME WORK</span> <br> React JS , Node JS , Express JS , Next JS , Bootstrap , Matirial UI , tailwind </li>
+                            <li> <span>DATA BASE</span> <br> MySql , MongoDB , AWS </li>
+                            <li><span>COMPUTER LANGUAGE</span> <br> Java Script , C++/C , JAVA , SQL , HTML5 , CSS3 </li>
+                            <li><span>SOFT SKILL</span> <br> Critical thinking, creativity , Communication, Patience, and problem-solving </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>Newton School</span> <br> (may 2022 - present) (as Full Stack Developer)</li>
+                            <li>  Work on Full Stack framework  like react js ,Node js , Express js ,redux and  
+                                problem solving skill in JAVA and c++ . Also got sound knowladge of data base management with MongoDB and MySql</li>
+                            <li><span>Photo Math</span> <br> (march 2022 - may 2022) (as Math Expert)</li>
+                            <li> Working as math expert , I contribute to creating high-quality mathematical 
+                                content and be a part of the team that changes the way kids learn math</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="skills">
+                        <ul>
+                            <li><span>Engineering</span> <br> Jaipur Engineering Collage & Research Centre  </li>
+                            <li>result : 71.20%</li>
+                            <li><span>Higher Secondary</span> <br> R.S.V.Hr. Sec. School </li>
+                            <li>result : 78.20%</li>
+                            <li><span>Senior Secondary</span> <br> R.S.V.Hr. Sec. School</li>
+                            <li>result : 9.2 CGPA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------servicec---------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+               <div>
+                <i class="fa-brands fa-react"></i>
+                <h2>Front-End</h2>
+            
+                    <p>React.js +  Next.js</p>
+                    <p>Java Script ES6</p>
+                    <p>Context API + Redux</p>
+                    <p>CSS / Bootstrap / tailwind </p>
+                    <p>Matirial UI</p>
+                
+                <a href="#portfolio">learn more</a>
+               </div>
+               <div>
+                <i class="fa-brands fa-node"></i>
+                <h2>Back-End</h2>
+                
+                    <p>Node.js</p>
+                    <p>AJAX / JSON / JQuery</p>
+                    <p>Express.js</p>
+                    <p>Git / GitLab </p>
+                    <p>Bycrypt / JW Auth</p>
+                
+                <a href="#portfolio">learn more</a>
+               </div>
+               <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Base</h2>
+                
+                    <p>Moongose / mongoDB</p>
+                    <p>SQL / My SQL</p>
+                    <p>AWS /Google Cloud Platform. </p>
+                    <p>Server Flow </p>
+                
+                <a href="#portfolio">learn more</a>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------portfolio--------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="IMAGES/project1.png" alt="">
+                    <div class="layer">
+                        <h3>Crypto Check</h3>
+                        <p>check for every change in all crypto coins</p>
+                        <ul>
+                            <li>React website to check market of all different crypto coins</li>
+                            <li>Uses: Coingecko Api ,react js ,axios ,font awesome ,react router</li>
+                        </ul>
+                        <div class="linkof">
+                        <a href="https://crypto-check-coin.netlify.app" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
+                        <a href="https://github.com/sharad-sharma101/cryptocurr" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="IMAGES/project2.png" alt="">
+                    <div class="layer">
+                        <h3>Cloud-Notes</h3>
+                        <p>Cloud note is a React Application for managing personal notes on the cloud</p>
+                        <ul>
+                            <li>Advance mern website with JWT authorization</li>
+                            <li>Uses: React js , node js , mongoDB , Express , Bootstrap</li>
+                        </ul>
+                        <div class="linkof">
+                            <a href="https://cloud-notes.onrender.com" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/cloud-notes" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="IMAGES/project3.png" alt="">
+                    <div class="layer">
+                        <h3>Movie Flex</h3>
+                        <p> Movie rating website with popular , trending & top rated section</p>
+                        <ul>
+                            <li>React website to saw IMDB rating of different movies</li>
+                            <li>uses: react ,themoviedb Api ,SkeletonTheme ,React router , </li>
+                        </ul>
+                        <div class="linkof">
+                            <a href="https://imdb-movieflex.netlify.app" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/movieflex" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------2nd row -------- -->
+            <div class="work-list openit " id="extra">
+                <div class="work">
+                    <img src="IMAGES/project4.png" alt="">
+                    <div class="layer">
+                        <h3>Manage Book</h3>
+                        <p>Manage everthing from tasks ,customer ,calender , shopping etc.</p>
+                        <ul>
+                            <li>React multi-use website with mordern UI</li>
+                            <li>Use: React js , tailwind ,syncfusion , contextApi</li>
+                        </ul>
+                        <div class="linkof">
+                            <a href="https://manage-book.netlify.app" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/manage-book" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="IMAGES/project5.png" alt="">
+                    <div class="layer">
+                        <h3>CHESS</h3>
+                        <ul>
+                        <li>A JavaScript chessboard( with HTML5 & CSS3 ) without dependencies</li>
+                        <li>Rendered in SVG, coded in ES6. Views FEN, handles move input, animated, responsive, expandable</li>
+                        </ul>
+                        <div class="linkof">
+                            <a href="https://chess-board-free.netlify.app" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/chess-two-player-game-" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="IMAGES/project6.png" alt="">
+                    <div class="layer">
+                        <h3>music Dashboard</h3>
+                        <ul>
+                        <li>javascript single page website</li>
+                        <li>HTML5 , CSS3 , ES-6</li>
+                        <li>striking a balance between functional and aesthetic design,</li>
+                        </ul>
+                        <div class="linkof">
+                            <a href="https://playit-free.netlify.app" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/play-it-music-player-" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a  class="btn" id="more" onclick="seemore()" >see more</a>
+            <!-- <button class="btn" onclick="seemore()">see more</button> -->
+        </div>
+    </div>
+
+    <!-- -----------coontact--------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" >Contact Me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i> Sharadsharma@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 8949129386</p>
+                    <div class="social-icons">
+                         
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn2">download resume</a>
+                </div> 
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg" ></span>
+                </div>
+            </div>
+        </div>
+        <div>
+          <p class="copyright" >Copiright by Sharadsharma</p>  
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content") ;
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+        let sidemenu = document.getElementById('sidemenu');
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyhe7kob_nj54ws6a25ADAIkJdYb0X8A9ngOW334Z1RFeoAti62-F48hs0lClnHKzFl-A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "I got your message"
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                } , 5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+
+
+        const seemore = () => {
+            if(document.getElementById('more').innerHTML === "see more"){
+            let temp = document.getElementById('extra');
+            temp.classList.remove("openit")
+            document.getElementById('more').innerHTML = "see less";}
+            else{
+            let temp = document.getElementById('extra');
+            temp.classList.add("openit")
+            document.getElementById('more').innerHTML = "see more";}
+        };
+
+      </script>
+</body>
+</html>
+
+
