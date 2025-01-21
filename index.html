@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,19 +9,20 @@
     <link rel="stylesheet" href="style.css" class="style">
     <script src="https://kit.fontawesome.com/aef0219df2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-   <div id="header" class="parallax">
-        <div class="container"> 
+    <div id="header" class="parallax">
+        <div class="container">
             <nav>
-                <img src="IMAGES/S .png" class="logo" >
-                <ul id="sidemenu" >
+                <img src="IMAGES/S .png" class="logo">
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Work</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
@@ -31,54 +33,67 @@
         </div>
     </div>
 
-     <!-- -----------about--------- -->
+    <!-- -----------about--------- -->
 
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="IMAGES/Avatar.png"  >
+                    <img src="IMAGES/Avatar.png">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Strong in design and integration with intuitive problem-solving skills. Proficient in C/C++ , JAVA Script and
+                    <p>Strong in design and integration with intuitive problem-solving skills. Proficient in C/C++ ,
+                        JAVA Script and
                         SQL. Passionate about implementing and launching new projects. Ability to translate business
                         requirements into technical solutions. Looking to great opportunity as software engineer
                         with a reputed firm driven by technology.</p>
                     <div class="tab-titles">
                         <p class="tab-links " onclick=" opentab('skills') ">Skills</p>
-                        <p class="tab-links"  onclick="opentab('experience')">Experiene</p>
-                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experiene</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
                     <div class="tab-content active-tab" id="skills">
                         <ul>
-                            <li><span>FRAME WORK</span> <br> React JS , Node JS , Express JS , Next JS , Bootstrap , Matirial UI , tailwind </li>
+                            <li><span>FRAME WORK</span> <br> React JS , Node JS , Express JS , Next JS , Bootstrap ,
+                                Matirial UI , tailwind </li>
                             <li> <span>DATA BASE</span> <br> MySql , MongoDB , AWS </li>
-                            <li><span>COMPUTER LANGUAGE</span> <br> Java Script , C++/C , JAVA , SQL , HTML5 , CSS3 </li>
-                            <li><span>SOFT SKILL</span> <br> Critical thinking, creativity , Communication, Patience, and problem-solving </li>
+                            <li><span>COMPUTER LANGUAGE</span> <br> Java Script , C++/C , JAVA , SQL , HTML5 , CSS3
+                            </li>
+                            <li><span>SOFT SKILL</span> <br> Critical thinking, creativity , Communication, Patience,
+                                and problem-solving </li>
                         </ul>
                     </div>
                     <div class="tab-content" id="experience">
                         <ul>
-                            <li><span>StrategyCo Global</span> <a href="https://strategycoglobal.com/en/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">
-                                <path d="M 25.980469 2.9902344 A 1.0001 1.0001 0 0 0 25.869141 3 L 20 3 A 1.0001 1.0001 0 1 0 20 5 L 23.585938 5 L 13.292969 15.292969 A 1.0001 1.0001 0 1 0 14.707031 16.707031 L 25 6.4140625 L 25 10 A 1.0001 1.0001 0 1 0 27 10 L 27 4.1269531 A 1.0001 1.0001 0 0 0 25.980469 2.9902344 z M 6 7 C 4.9069372 7 4 7.9069372 4 9 L 4 24 C 4 25.093063 4.9069372 26 6 26 L 21 26 C 22.093063 26 23 25.093063 23 24 L 23 14 L 23 11.421875 L 21 13.421875 L 21 16 L 21 24 L 6 24 L 6 9 L 14 9 L 16 9 L 16.578125 9 L 18.578125 7 L 16 7 L 14 7 L 6 7 z"></path>
-                                </svg></a> <br> (Dec 2023 - present) (as software Developer)</li>
-                            <li> Developed a multi-access dashboard in React 18.1.0, migrated from React 16.12.0 to optimize architecture and reduce build size, integrated cron jobs for backend efficiency, and established global style variables to enhance consistency and maintainability.</li>
-                            <li><span>Attryb Tech</span> <br> (Feb 2023 - Dec 2023) (as Full Stack Developer)</li>
-                            <li> Deployed a custom UI library on npm with CI/CD pipelines, optimized data retrieval using MongoDB and PostgreSQL, resolved critical issues to boost brand conversions, and implemented centralized state management with Redux Toolkit Thunk for seamless user experiences.</li>
-                            <li><span>Kidaura</span> <br> (march 2022 - may 2022) (as Math Expert)</li>
-                            <li> Built custom hooks with Chakra UI to reduce server load, implemented GraphQL queries and mutations for server-side rendering, and developed pixel-perfect Figma UI/UX designs in Next.js.</li>
-                            <li><span>Newton School</span> <br> (may 2022 - Oct,2022) (as Full stack Traniee)</li>
-                            <li> Work on Full Stack framework  like react js ,Node js , Express js ,redux and  
-                                problem solving skill in JAVA and c++ . Also got sound knowladge of data base management with MongoDB and MySql</li>
-                            <li><span>Photo Math</span> <br> (march 2022 - may 2022) (as Math Expert)</li>
-                            <li> Working as math expert , I contribute to creating high-quality mathematical 
+                            <li> <a href="https://strategycoglobal.com/en/">
+                                    <span>StrategyCo Global</span>
+                                </a> <br> (Dec 2023 - present) (as software Developer)</li>
+                            <li> Developed a multi-access dashboard in React 18.1.0, migrated from React 16.12.0 to
+                                optimize architecture and reduce build size, integrated cron jobs for backend
+                                efficiency, and established global style variables to enhance consistency and
+                                maintainability.</li>
+                            <li> <a href="https://attryb.com/"><span>Attryb Tech</span></a> <br> (Feb 2023 - Dec 2023) (as Full Stack Developer)</li>
+                            <li> Deployed a custom UI library on npm with CI/CD pipelines, optimized data retrieval
+                                using MongoDB and PostgreSQL, resolved critical issues to boost brand conversions, and
+                                implemented centralized state management with Redux Toolkit Thunk for seamless user
+                                experiences.</li>
+                            <li> <a href="https://kidaura.in/" ><span>Kidaura</span></a> <br> (march 2022 - may 2022) (as Math Expert)</li>
+                            <li> Built custom hooks with Chakra UI to reduce server load, implemented GraphQL queries
+                                and mutations for server-side rendering, and developed pixel-perfect Figma UI/UX designs
+                                in Next.js.</li>
+                            <li> <a href="https://www.newtonschool.co/" ><span>Newton School</span></a> <br> (may 2022 - Oct,2022) (as Full stack Traniee)</li>
+                            <li> Work on Full Stack framework like react js ,Node js , Express js ,redux and
+                                problem solving skill in JAVA and c++ . Also got sound knowladge of data base management
+                                with MongoDB and MySql</li>
+                            <li> <a href="https://photomath.com/" ><span>Photo Math</span></a> <br> (march 2022 - may 2022) (as Math Expert)</li>
+                            <li> Working as math expert , I contribute to creating high-quality mathematical
                                 content and be a part of the team that changes the way kids learn math</li>
                         </ul>
                     </div>
                     <div class="tab-content" id="education">
                         <ul>
-                            <li><span>Engineering</span> <br> Jaipur Engineering Collage & Research Centre  </li>
+                            <li><span>Engineering</span> <br> Jaipur Engineering Collage & Research Centre </li>
                             <li>result : 71.20%</li>
                             <li><span>Higher Secondary</span> <br> R.S.V.Hr. Sec. School </li>
                             <li>result : 78.20%</li>
@@ -98,41 +113,41 @@
         <div class="container">
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
-               <div>
-                <i class="fa-brands fa-react"></i>
-                <h2>Front-End</h2>
-            
-                    <p>React.js +  Next.js + React Native</p>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>Front-End</h2>
+
+                    <p>React.js + Next.js + React Native</p>
                     <p>Java Script ES6</p>
                     <p>Context API + Redux</p>
                     <p>CSS / Bootstrap / tailwindCSS </p>
                     <p>Material UI</p>
-                
-                <a href="#portfolio">learn more</a>
-               </div>
-               <div>
-                <i class="fa-brands fa-node"></i>
-                <h2>Back-End</h2>
-                
+
+                    <a href="#portfolio">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-node"></i>
+                    <h2>Back-End</h2>
+
                     <p>Node.js</p>
                     <p>AJAX / JSON / JQuery</p>
                     <p>Express.js</p>
                     <p>Git / GitLab </p>
                     <p>Bycrypt / JW Auth</p>
-                
-                <a href="#portfolio">learn more</a>
-               </div>
-               <div>
-                <i class="fa-solid fa-database"></i>
-                <h2>Data Base</h2>
-                
+
+                    <a href="#portfolio">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Base</h2>
+
                     <p>Moongose / mongoDB</p>
                     <p>SQL / My SQL</p>
                     <p>AWS /Google Cloud Platform. </p>
                     <p>Server Flow </p>
-                
-                <a href="#portfolio">learn more</a>
-               </div>
+
+                    <a href="#portfolio">learn more</a>
+                </div>
             </div>
         </div>
     </div>
@@ -153,8 +168,10 @@
                             <li>Uses: open Api ,react js ,axios ,Tailwind CSS ,nodejs, cloudnary</li>
                         </ul>
                         <div class="linkof">
-                        <a href="https://delle-cl.netlify.app" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
-                        <a href="https://github.com/sharad-sharma101/cryptocurr" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                            <a href="https://delle-cl.netlify.app" target="_blank"><i
+                                    class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/cryptocurr" target="_blank"><i
+                                    class="fa-brands fa-git-alt"></i></a>
                         </div>
                     </div>
                 </div>
@@ -169,8 +186,10 @@
                             <li>Google sign in, Tailwind CSS , react-icons </li>
                         </ul>
                         <div class="linkof">
-                            <a href="https://my-lens.netlify.app" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
-                            <a href="https://github.com/sharad-sharma101/mylens" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                            <a href="https://my-lens.netlify.app" target="_blank"><i
+                                    class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/mylens" target="_blank"><i
+                                    class="fa-brands fa-git-alt"></i></a>
                         </div>
                     </div>
                 </div>
@@ -184,8 +203,10 @@
                             <li>Uses: React js , node js , mongoDB , Express , Bootstrap</li>
                         </ul>
                         <div class="linkof">
-                            <a href="https://cloud-notes.onrender.com" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
-                            <a href="https://github.com/sharad-sharma101/cloud-notes" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                            <a href="https://cloud-notes.onrender.com" target="_blank"><i
+                                    class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/cloud-notes" target="_blank"><i
+                                    class="fa-brands fa-git-alt"></i></a>
                         </div>
                     </div>
                 </div>
@@ -202,8 +223,10 @@
                             <li>Use: React js , tailwind ,syncfusion , contextApi</li>
                         </ul>
                         <div class="linkof">
-                            <a href="https://manage-book.netlify.app" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
-                            <a href="https://github.com/sharad-sharma101/manage-book" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                            <a href="https://manage-book.netlify.app" target="_blank"><i
+                                    class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/manage-book" target="_blank"><i
+                                    class="fa-brands fa-git-alt"></i></a>
                         </div>
                     </div>
                 </div>
@@ -217,8 +240,10 @@
                             <li>uses: react ,themoviedb Api ,SkeletonTheme ,React router , </li>
                         </ul>
                         <div class="linkof">
-                            <a href="https://imdb-movieflex.netlify.app" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
-                            <a href="https://github.com/sharad-sharma101/movieflex" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                            <a href="https://imdb-movieflex.netlify.app" target="_blank"><i
+                                    class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/movieflex" target="_blank"><i
+                                    class="fa-brands fa-git-alt"></i></a>
                         </div>
                     </div>
                 </div>
@@ -227,13 +252,15 @@
                     <div class="layer">
                         <h3>music Dashboard</h3>
                         <ul>
-                        <li>javascript single page website</li>
-                        <li>HTML5 , CSS3 , ES-6</li>
-                        <li>striking a balance between functional and aesthetic design,</li>
+                            <li>javascript single page website</li>
+                            <li>HTML5 , CSS3 , ES-6</li>
+                            <li>striking a balance between functional and aesthetic design,</li>
                         </ul>
                         <div class="linkof">
-                            <a href="https://playit-free.netlify.app" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
-                            <a href="https://github.com/sharad-sharma101/play-it-music-player-" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                            <a href="https://playit-free.netlify.app" target="_blank"><i
+                                    class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/play-it-music-player-" target="_blank"><i
+                                    class="fa-brands fa-git-alt"></i></a>
                         </div>
                     </div>
                 </div>
@@ -245,18 +272,20 @@
                     <div class="layer">
                         <h3>music Dashboard</h3>
                         <ul>
-                        <li>javascript single page website</li>
-                        <li>HTML5 , CSS3 , ES-6</li>
-                        <li>striking a balance between functional and aesthetic design,</li>
+                            <li>javascript single page website</li>
+                            <li>HTML5 , CSS3 , ES-6</li>
+                            <li>striking a balance between functional and aesthetic design,</li>
                         </ul>
                         <div class="linkof">
-                            <a href="https://playit-free.netlify.app" target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a>
-                            <a href="https://github.com/sharad-sharma101/play-it-music-player-" target="_blank"><i class="fa-brands fa-git-alt"></i></a>
+                            <a href="https://playit-free.netlify.app" target="_blank"><i
+                                    class="fa-sharp fa-solid fa-link"></i></a>
+                            <a href="https://github.com/sharad-sharma101/play-it-music-player-" target="_blank"><i
+                                    class="fa-brands fa-git-alt"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <a  class="btn" id="more" onclick="seemore()" >see more</a>
+            <a class="btn" id="more" onclick="seemore()">see more</a>
             <!-- <button class="btn" onclick="seemore()">see more</button> -->
         </div>
     </div>
@@ -267,55 +296,56 @@
         <div class="container">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title" >Contact Me</h1>
+                    <h1 class="sub-title">Contact Me</h1>
                     <p> <i class="fa-solid fa-envelope"></i> Sharadsharma.dev@gmail.com</p>
                     <p> <i class="fa-solid fa-phone"></i>8949129386</p>
                     <div class="social-icons">
-                         
-                        <a href="https://www.linkedin.com/in/sharad-sharma-575226192/"><i class="fa-brands fa-linkedin"></i></a>
+
+                        <a href="https://www.linkedin.com/in/sharad-sharma-575226192/"><i
+                                class="fa-brands fa-linkedin"></i></a>
                         <a href="https://github.com/sharad-sharma101"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                     <a href="./IMAGES/SHARAD-RESUME.pdf" download class="btn btn2">download resume</a>
-                </div> 
+                </div>
                 <div class="contact-right">
-                    <form name="submit-to-google-sheet" >
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
-                    <span id="msg" ></span>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
         <div>
-          <p class="copyright" >Copyright by Sharad Sharma</p>  
+            <p class="copyright">Copyright by Sharad Sharma</p>
         </div>
     </div>
 
 
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-content") ;
-        
-        function opentab(tabname){
-            for(tablink of tablinks){
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
         }
-        
+
         let sidemenu = document.getElementById('sidemenu');
 
-        function openmenu(){
+        function openmenu() {
             sidemenu.style.right = "0";
         }
-        function closemenu(){
+        function closemenu() {
             sidemenu.style.right = "-200px";
         }
 
@@ -326,32 +356,33 @@
         const msg = document.getElementById("msg");
 
         form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "I got your message"
-                setTimeout(function(){
-                    msg.innerHTML = "";
-                } , 5000)
-                form.reset();
-            })
-            .catch(error => console.error('Error!', error.message))
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "I got your message"
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
         })
 
 
         const seemore = () => {
-            if(document.getElementById('more').innerHTML === "see more"){
-            let temp = document.getElementById('extra');
-            temp.classList.remove("openit")
-            document.getElementById('more').innerHTML = "see less";}
-            else{
-            let temp = document.getElementById('extra');
-            temp.classList.add("openit")
-            document.getElementById('more').innerHTML = "see more";}
+            if (document.getElementById('more').innerHTML === "see more") {
+                let temp = document.getElementById('extra');
+                temp.classList.remove("openit")
+                document.getElementById('more').innerHTML = "see less";
+            }
+            else {
+                let temp = document.getElementById('extra');
+                temp.classList.add("openit")
+                document.getElementById('more').innerHTML = "see more";
+            }
         };
 
-      </script>
+    </script>
 </body>
+
 </html>
-
-
